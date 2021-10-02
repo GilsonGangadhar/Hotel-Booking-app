@@ -20,10 +20,10 @@ function Footer() {
 
             <div className="space-y-4 text-xs text-gray-800">
                 <h5 className="font-bold">HOST</h5>
-                <p>How Airbnb Works</p>
-                <p>Newsroom</p>
-                <p>Investors</p>
-                <p>Airbnb Plus</p>
+                <p>Host your home</p>
+                <p>Host an online experience</p>
+                <p>Host an experience</p>
+                <p>Responsible hosting</p>
                 
             </div>
 

@@ -45,9 +45,9 @@ function Header({placeholder}) {
     return (
         <header className="sticky top-0' z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 ">
 
-            {/* Image icon */}
-           <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
-              <h2 className="text-red-400 font-medium text-2xl">Hotel Booking</h2>
+            {/* Icon */}
+           <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto" style={{width: "fit-content"}}>
+              <h2 className="text-red-500 font-semibold text-2xl font-sans">Hotel Booking</h2>
            </div>
 
             {/* Search bar */}
