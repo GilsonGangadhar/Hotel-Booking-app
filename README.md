@@ -1,4 +1,4 @@
-Hotel-Room-Booking-App Demo URL : https://hotel-booking-app-qmd04qbnn-gilsongangadhar-gmailcom.vercel.app/
+Hotel-Room-Booking-App Demo URL : https://hotel-booking-app-iw6tdpoyt-gilsongangadhar-gmailcom.vercel.app/
 
 This is a Hotel room-Booking-App, a next.js app, where you can look a hotel rooms for user/users in your/nearby cities (here cities are from UK). Here first, the user have to select the location where you need the hotel room and then select the number of days for your stay. Then the app will take you to search hotel locations, where you can look at the hotel rooms. This app also shows the available hotel rooms in the selected cities on the map.
 
