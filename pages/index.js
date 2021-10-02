@@ -10,7 +10,7 @@ export default function Home({exploreData, cardsData}) {
   return (
     <div className="">
       <Head>
-        <title>Travel_India-app</title>
+        <title>Hotel-Booking-App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

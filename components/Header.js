@@ -47,7 +47,7 @@ function Header({placeholder}) {
 
             {/* Image icon */}
            <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
-              <Image src="https://links.papareact.com/qd3" layout='fill' objectFit="contain" objectPosition="left" /> 
+              <h2 className="text-red-400 font-medium text-2xl">Hotel Booking</h2>
            </div>
 
             {/* Search bar */}
