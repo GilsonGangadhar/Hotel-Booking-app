@@ -3,6 +3,6 @@ module.exports = {
         domains : ['links.papareact.com']
     },
     env:{
-        mapbox_key : 'pk.eyJ1IjoibWFydGluLWx1dGhlci0yODUiLCJhIjoiY2t1N2tkMGRoMDFiMTJwbGRteHVnazg5ZiJ9.zCSCG5fgIjVWde3G9zAq7Q'
+        mapbox_key : 'pk.eyJ1IjoiZ2lsc29uLWdhbmdhZGhhci0yODUiLCJhIjoiY2t1OTdpYmpjMDQ2YTJ1bW91ZmtzaDJyayJ9._EvTNS-B_RyqoKdeOm-Uzg'
     }
 }
