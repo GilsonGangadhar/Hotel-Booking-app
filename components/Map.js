@@ -74,10 +74,10 @@ class Map extends Component {
             {/* pop up after clicking marker */}
             {this.state.selectedLocation.long === result.long ? (
                 <Popup 
-                closeOnClick={true} 
-                onClose={() => this.handleClick({})} 
-                latitude={result.lat} 
-                longitude={result.long}
+                    closeOnClick={true} 
+                    onClose={() => this.handleClick({})} 
+                    latitude={result.lat} 
+                    longitude={result.long}
                 >
                     {result.title}
                 </Popup>
