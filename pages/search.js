@@ -16,7 +16,7 @@ function Search({searchResults}) {
     if(startDate !== undefined && endDate !== undefined) {
         const formattedStartDate = format(new Date(startDate), "dd MMMM yy")
         const formattedEndDate = format(new Date(endDate), "dd MMMM yy")
-        range = `${formattedStartDate} to ${formattedEndDate}`
+        range = `${formattedStartDate} - ${formattedEndDate}`
     }
 
 
@@ -26,7 +26,7 @@ function Search({searchResults}) {
 
             <main className="flex">
                 <section className="flex-grow pt-14 px-6">
-                    <p className="text-xs">300+ Stays,  from {range}  for :  {noOfGuests} guests </p>
+                    <p className="text-xs">{`300+ Stays,  from ${range} : ${noOfGuests} guests `}</p>
 
                     <h1 className="text-3xl font-semibold mt-2 mb-6">Stays in {location}</h1>
 
