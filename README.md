@@ -1,29 +1,18 @@
-# Next.js + Tailwind CSS Example
+Hotel-Room-Booking-App Demo URL : https://hotel-booking-app-qmd04qbnn-gilsongangadhar-gmailcom.vercel.app/
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a Hotel room-Booking-App, a next.js app, where you can book a hotel room for user/users in your/nearby cities (here cities are from UK). Here first, the user have to select the location where you need the hotel room and then select the number of days for your stay. Then the app will take you to search hotel locations, where you can book the hotel room. This app also shows the available hotel rooms in the selected cities on the map.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+Its build using : 
 
-## Preview
+* front end : next js, react-router-dom, react-date-range, date-fns, tailwind-scrollbar-hide, react-map-gl, geolib
+* Map got from mapbox(through style key and access key)
+* styling done using tailwind.css
+* backend data done using JSON
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Its Main features : 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Listing the cities(cities where service available) on homepage. 
+2. Mentioning the city in the search bar and also mentioning the dates for which you want to use the hotel room(created using react-date-range and date-fns)
+3. New page loading scroll bar is made using tailwind-scrollbar-hide/ bar-of-progess package, until the search/home page loads
+4. Map showed on the search screen is made using react-map-gl package (react wrapper for mapbox GL JS), to show available hotel rooms in the searched cities
+5. Pining the hotel on the map for the searched city and popping up the name of the hotel over the pinpoint(from the click)  
