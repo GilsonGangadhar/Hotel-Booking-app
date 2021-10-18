@@ -18,3 +18,4 @@ Its Main features :
 3. New page loading scroll bar is made using tailwind-scrollbar-hide/ bar-of-progess package, until the search/home page loads
 4. Map showed on the search screen is made using react-map-gl package (react wrapper for mapbox GL JS), to show available hotel rooms in the searched cities
 5. Pining the hotel on the map for the searched city and popping up the name of the hotel over the pinpoint(from the click)  
+6. Also made the app responsive for smartphones & tablets 
