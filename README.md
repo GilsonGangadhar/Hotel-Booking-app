@@ -1,4 +1,4 @@
-Hotel-Room-Booking-App Demo URL : https://hotel-booking-app-iw6tdpoyt-gilsongangadhar-gmailcom.vercel.app/
+Hotel-Room-Booking-App Demo URL : https://hotel-booking-app-hp9nt8lwa-gilsongangadhar-gmailcom.vercel.app/
 
 Hotel-Room-Booking-App walkthrough : https://www.awesomescreenshot.com/video/5472157?key=baf76a4db2ed8b2c0cc998e7cdadc8dd
 
