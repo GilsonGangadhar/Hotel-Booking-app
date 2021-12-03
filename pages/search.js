@@ -30,13 +30,13 @@ function Search({searchResults}) {
 
                     <h1 className="text-3xl font-semibold mt-2 mb-6">Stays in {location}</h1>
 
-                    <div className="hidden lg:inline-flex mb-5 space-x-5 text-gray-800 whitespace-nowrap">
+                    {/* <div className="hidden lg:inline-flex mb-5 space-x-5 text-gray-800 whitespace-nowrap">
                         <p className="button">Cancellation flexibility</p>
                         <p className="button">Type of Place</p>
                         <p className="button">Price</p>
                         <p className="button">Rooms</p>
                         <p className="button">More filters</p>
-                    </div>
+                    </div> */}
 
                     <div>
                     {searchResults.map((item,i) => (
